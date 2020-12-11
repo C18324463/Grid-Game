@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Lab7.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Lab 7</title>
+    </head>
+    <body>
+        <div class="container">
+            <form id="form">
+                <div id="save">
+                    <label for="Name" style="font-size: 20px">Name:</label>
+                    <input id='Name' onfocus="this.placeholder=''" placeholder="Name" name='Name' type="Name">
+                </div>
+                <div id="mail">
+                    <label for="Email" style="font-size: 20px">Email:</label>
+                    <input id='Email' onfocus="this.placeholder=''" placeholder="Email" name='Email' type="Email">
+                </div>
+            </form>
+        </div>
+        <div id="Btn">
+            <button type="button" class="Btn">Start Game</button>
+        </div>
+        <div id='format' class='clock'></div>
+        <div id="colourDisplay"></div>
+        <div id="leaderboard"></div>
+        <script type="text/javascript" src="Lab7.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    </body>
+</html>
